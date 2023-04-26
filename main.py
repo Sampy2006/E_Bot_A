@@ -20,7 +20,7 @@ engine = pyttsx3.init()
 # самый начальный экран с кнопками
 @bot.message_handler(commands=['start'])
 def sending_welcome_message(message):
-    if message.from_user.id == 1742404336 or 984745227 or 1896898983:
+    if message.from_user.id == 706901738 or 1350128290:
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         murkup = types.InlineKeyboardMarkup(row_width=1, )
         btn1 = types.KeyboardButton("/help")
